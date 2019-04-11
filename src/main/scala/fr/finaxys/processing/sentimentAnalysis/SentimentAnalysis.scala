@@ -10,7 +10,7 @@ object SentimentAnalysis {
 
   def makeSentimentAnalysis(): StreamingContext ={
     val ssc = SparkEntryPoint.createContext()
-    val tweets = TweetStream.getTweetStream()
+    val tweets = TweetStream.getTweetStream(ssc)
 
     //    Load words
     val uselessWords = ssc.sparkContext.broadcast(loadFile("/stop-words.dat" ))

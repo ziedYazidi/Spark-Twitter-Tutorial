@@ -11,7 +11,7 @@ object CommonUserLanguage {
   def getCommonLanguage(): StreamingContext ={
 
     val ssc = SparkEntryPoint.createContext()
-    val tweets = TweetStream.getTweetStream()
+    val tweets = TweetStream.getTweetStream(ssc)
 
     val firstLang = new LongCounterFactory("First Lang").getInstance(ssc.sparkContext)
     val secondLang = new LongCounterFactory("Second Lang").getInstance(ssc.sparkContext)

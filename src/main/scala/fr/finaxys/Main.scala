@@ -19,7 +19,6 @@ object Main {
 
 //    Get a Sentiment analysis of each tweet
 //    val context = StreamingContext.getOrCreate(SparkEntryPoint.checkpointDirectory, SentimentAnalysis.makeSentimentAnalysis)
-    context.stop();
 
     context.start()
     context.awaitTermination()

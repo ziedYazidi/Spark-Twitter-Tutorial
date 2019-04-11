@@ -11,7 +11,7 @@ object AverageWordsPerTweet {
 
 
     val ssc = SparkEntryPoint.createContext()
-    val tweets = TweetStream.getTweetStream()
+    val tweets = TweetStream.getTweetStream(ssc)
 
     val hashtagCounter = new LongCounterFactory("HashTag Counter").getInstance(ssc.sparkContext)
     val allTweetsCounter = new LongCounterFactory("HashTag Counter").getInstance(ssc.sparkContext)
