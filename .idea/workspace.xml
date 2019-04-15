@@ -2,11 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ca2852-d9ff-453c-b21f-6a39fd339e99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/SparkStructuredStreamingTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Hashtag-Correlation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hashtag-Correlation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$63e6e8446599944431f0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$63e6e8446599944431f0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$63e6e8446599944431f0.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/entrypoint/SparkEntryPoint.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/entrypoint/SparkEntryPoint.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CorrelationClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CorrelationClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TweetStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TweetStream.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CorrelationClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/TweetsCorrelation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/fr/finaxys/SparkStructuredStreamingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/Main$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/Main$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet$$anonfun$getAvgWordsPerTweet$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet$$anonfun$getAvgWordsPerTweet$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet$$anonfun$getAvgWordsPerTweet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet$$anonfun$getAvgWordsPerTweet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/AverageWordsPerTweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CommonUserLanguage$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CommonUserLanguage$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CommonUserLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CommonUserLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CorrelationClass$$anonfun$getCorrelation$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CorrelationClass$$anonfun$getCorrelation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CorrelationClass$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/CorrelationClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming$$typecreator4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/SparkStructuredStreaming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/hashtag-correlation_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/fr/finaxys/SparkStructuredStreamingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,61 +131,25 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Hashtag-Correlation" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/SparkStructuredStreamingTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-              <folding>
-                <element signature="e#20#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#49#86#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#31#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CorrelationClass.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-              <folding>
-                <element signature="e#31#68#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -127,50 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TweetStream.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="46" />
-              <folding>
-                <element signature="e#28#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TwitterUtil.scala">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/accumulator/LongCounterFactory.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/entrypoint/SparkEntryPoint.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-              <folding>
-                <element signature="e#31#64#0" expanded="true" />
-              </folding>
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -239,7 +227,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysis/SentimentAnalysisUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/Utils/TwitterUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/SparkBatch.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/fr/finaxys/SentimentAnalysis/SentimentAnalysisTest.java" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/SparkStructuredStreaming.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/fr/finaxys/SparkStructuredStreamingTest.java" />
@@ -251,15 +238,22 @@
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysis/SentimentAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/Processing/AverageWordsPerTweet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/Processing/SparkStructuredStreaming.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TwitterUtil.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/entrypoint/SparkEntryPoint.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TweetStream.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/CorrelationClassTest.java" />
         <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CorrelationClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/CorrelationClassTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/TweetsCorrelationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/TweetsCorrelationTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SparkStructuredStreamingTest.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/SparkStructuredStreamingTest.scala" />
       </list>
     </option>
   </component>
@@ -275,7 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,61 +281,18 @@
               <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hashtag-Correlation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hashtag-Correlation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hashtag-Correlation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="finaxys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hashtag-Correlation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="finaxys" type="462c0819:PsiDirectoryNode" />
-              <item name="entrypoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hashtag-Correlation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="finaxys" type="462c0819:PsiDirectoryNode" />
-              <item name="processing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hashtag-Correlation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hashtag-Correlation" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555000034083" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555081589900" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -352,10 +302,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.finaxys.processing" />
       <recent name="fr.finaxys" />
       <recent name="fr.finaxys.SentimentAnalysis" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.finaxys.processing" />
       <recent name="fr.finaxys" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -377,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SparkStructuredStreamingTest$">
     <configuration name="CommonUserLanguage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.CommonUserLanguage" />
       <module name="Hashtag-Correlation" />
@@ -392,7 +344,7 @@
       </method>
     </configuration>
     <configuration name="CorrelationClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.CorrelationClass" />
+      <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.TweetsCorrelation" />
       <module name="Hashtag-Correlation" />
       <extension name="coverage">
         <pattern>
@@ -417,19 +369,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SentimentAnalysis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.sentimentAnalysis.SentimentAnalysis" />
-      <module name="Hashtag-Correlation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.finaxys.processing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SparkBatch" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.SparkStructuredStreaming" />
       <module name="Hashtag-Correlation" />
@@ -443,13 +382,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkStructuredStreamingTest$" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hashtag-Correlation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.finaxys.processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.finaxys.processing" />
+      <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.SparkStructuredStreamingTest$" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkStructuredStreamingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hashtag-Correlation" />
+      <option name="PACKAGE_NAME" value="fr.finaxys.processing" />
+      <option name="MAIN_CLASS_NAME" value="fr.finaxys.processing.SparkStructuredStreamingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SparkStructuredStreamingTest$" />
+        <item itemvalue="JUnit.SparkStructuredStreamingTest$" />
+        <item itemvalue="Application.SparkBatch" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CorrelationClass" />
-        <item itemvalue="Application.SparkBatch" />
-        <item itemvalue="Application.CommonUserLanguage" />
-        <item itemvalue="Application.SentimentAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +443,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1812227304" />
+        <entry key="$PROJECT_DIR$" value="3109381725000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1120289301" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
     </option>
@@ -503,41 +467,74 @@
       <workItem from="1554710354053" duration="18031000" />
       <workItem from="1554795464262" duration="19249000" />
       <workItem from="1554880803734" duration="20020000" />
-      <workItem from="1554989771118" duration="9234000" />
+      <workItem from="1554989771118" duration="9469000" />
+      <workItem from="1555055251002" duration="15121000" />
+      <workItem from="1555313491377" duration="577000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 13m 30s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 17m 19s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 20m 51s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 21m 07s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 25m 01s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 25m 29s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 25m 51s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 28m 21s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 14h 28m 45s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SparkStructuredStreamingTest$ - 2019.04.12 at 15h 30m 53s.xml">
+      <configuration name="SparkStructuredStreamingTest$" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111212000" />
+    <option name="totallyTimeSpent" value="127145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27006087" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.27670172" />
+      <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.2733813" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50174826" side_tool="true" weight="0.2733813" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3822894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3822894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" side_tool="true" weight="0.32982844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24958494" />
@@ -549,6 +546,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" order="11" side_tool="true" weight="0.32982844" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,39 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#20#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysisUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#20#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/Utils/TwitterUtil.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/AllTweetsCounter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#20#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysis.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysisUtil.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/Utils/TwitterUtil.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/AllTweetsCounter.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysisUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -639,139 +608,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/TwitterUtil.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/TwitterUtil.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/SparkStructuredStreamingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysis/TweetStream.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/CommonUserLanguage.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SparkEntryPoint.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SparkStructuredStreaming.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/TweetStream.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/AverageWordsPerTweet.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/CorrelationClass.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TweetStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/SparkStructuredStreamingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SentimentAnalysis/TweetStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/CommonUserLanguage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="46" />
           <folding>
-            <element signature="e#20#74#0" expanded="true" />
+            <element signature="e#28#72#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SparkEntryPoint.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#20#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/SparkStructuredStreaming.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#20#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/TweetStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#20#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/AverageWordsPerTweet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#20#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/CorrelationClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#20#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/accumulator/LongCounterFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#49#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#31#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -782,16 +634,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/twitter/TweetStream.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/accumulator/LongCounterFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="60">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/CorrelationClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#28#72#0" expanded="true" />
+            <element signature="e#20#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CommonUserLanguage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#49#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CorrelationClassTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/TweetsCorrelationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/TweetsCorrelationTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/TweetsCorrelation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#31#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/sentimentAnalysis/SentimentAnalysisTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SparkStructuredStreamingTest.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/entrypoint/SparkEntryPoint.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -802,23 +694,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/CorrelationClass.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/AverageWordsPerTweet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="46" />
           <folding>
             <element signature="e#31#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/Main.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fr/finaxys/processing/SparkStructuredStreamingTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="e#20#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fr/finaxys/processing/SparkStructuredStreaming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>

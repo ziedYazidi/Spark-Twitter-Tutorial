@@ -2,7 +2,7 @@ package fr.finaxys
 
 import fr.finaxys.entrypoint.SparkEntryPoint
 import fr.finaxys.entrypoint.SparkEntryPoint.checkpointDirectory
-import fr.finaxys.processing.CorrelationClass
+import fr.finaxys.processing.TweetsCorrelation
 import fr.finaxys.processing.sentimentAnalysis.SentimentAnalysis
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
@@ -15,13 +15,11 @@ object Main {
 //    Count the most common user language
 //    val context = StreamingContext.getOrCreate(SparkEntryPoint.checkpointDirectory, CommonUserLanguage.getCommonLanguage)
 //    Get the correlation betweeen two hashtags
-    val context = StreamingContext.getOrCreate(checkpointDirectory, CorrelationClass.getCorrelation)
+    val context = StreamingContext.getOrCreate(checkpointDirectory, TweetsCorrelation.getCorrelation)
 
 //    Get a Sentiment analysis of each tweet
 //    val context = StreamingContext.getOrCreate(SparkEntryPoint.checkpointDirectory, SentimentAnalysis.makeSentimentAnalysis)
-
     context.start()
     context.awaitTermination()
-
   }
 }

@@ -4,7 +4,7 @@
 		module="hashtag-correlation_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20190411163503"
+		publication="20190412153226"
 	>
 		<description>
 		Hashtag-Correlation
@@ -36,6 +36,7 @@
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.bahir" name="spark-streaming-twitter_2.11" rev="2.3.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.4.0" conf="compile->default(compile)"/>
-		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-api" rev="5.4.1" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-junit-jupiter" rev="2.27.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

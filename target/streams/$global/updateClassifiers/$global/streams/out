@@ -355,7 +355,7 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;2.5.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;2.5.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.5.1
 [debug] 	found org.objenesis#objenesis;2.5.1 in sbt-chain
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->runtime(*)]
@@ -755,7 +755,7 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: junit#junit;3.8.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: junit#junit;3.8.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: junit#junit;3.8.1
 [debug] 	found junit#junit;3.8.1 in sbt-chain
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->runtime(*)]
@@ -4647,10 +4647,8 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [compile->compile]
@@ -4939,8 +4937,10 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [compile->compile]
@@ -5945,10 +5945,8 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [runtime->compile]
@@ -6236,8 +6234,10 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [runtime->compile]
@@ -7144,6 +7144,17 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apiguardian#apiguardian-api;1.0.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apiguardian#apiguardian-api;1.0.0
+[debug] 	found org.apiguardian#apiguardian-api;1.0.0 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test->compile]
@@ -7240,14 +7251,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test->compile]
@@ -7356,6 +7359,17 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.opentest4j#opentest4j;1.1.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.opentest4j#opentest4j;1.1.1
+[debug] 	found org.opentest4j#opentest4j;1.1.1 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test->compile]
@@ -7372,6 +7386,25 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.junit.jupiter#junit-jupiter-api;5.4.1 {test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]}
+[debug] sbt-chain: module revision found in cache: org.junit.jupiter#junit-jupiter-api;5.4.1
+[debug] 	found org.junit.jupiter#junit-jupiter-api;5.4.1 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->default(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test->compile]
@@ -7396,6 +7429,17 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.mockito#mockito-core;2.27.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;2.27.0
+[debug] 	found org.mockito#mockito-core;2.27.0 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test->compile]
@@ -7460,6 +7504,17 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy-agent;1.9.10 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: net.bytebuddy#byte-buddy-agent;1.9.10
+[debug] 	found net.bytebuddy#byte-buddy-agent;1.9.10 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test->compile]
@@ -7531,6 +7586,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test->compile]
@@ -7687,6 +7750,28 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy;1.9.10 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: net.bytebuddy#byte-buddy;1.9.10
+[debug] 	found net.bytebuddy#byte-buddy;1.9.10 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.junit.platform#junit-platform-commons;1.4.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.junit.platform#junit-platform-commons;1.4.1
+[debug] 	found org.junit.platform#junit-platform-commons;1.4.1 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test->compile]
@@ -7943,25 +8028,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->default]
-[debug] sbt-chain: Checking cache for: dependency: junit#junit;4.12 {test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]}
-[debug] sbt-chain: module revision found in cache: junit#junit;4.12
-[debug] 	found junit#junit;4.12 in sbt-chain
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->default(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test->compile]
@@ -8042,6 +8108,17 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;2.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.6
+[debug] 	found org.objenesis#objenesis;2.6 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile]
@@ -8050,17 +8127,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
-[debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test->default]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test->runtime]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test->compile]
@@ -8137,6 +8203,21 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.mockito#mockito-junit-jupiter;2.27.0 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.mockito#mockito-junit-jupiter;2.27.0
+[debug] 	found org.mockito#mockito-junit-jupiter;2.27.0 in sbt-chain
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->default(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test->compile]
@@ -15078,13 +15159,19 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [compile->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [compile->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [compile->compile]
@@ -15370,19 +15457,13 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [compile->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [compile->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [compile->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [compile->compile]
@@ -16384,13 +16465,19 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [runtime->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [runtime->compile]
@@ -16675,19 +16762,13 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [runtime->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->master(compile)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [runtime->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [runtime->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [runtime->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [runtime->compile]
@@ -17592,6 +17673,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test->compile]
@@ -17688,14 +17777,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test->compile]
@@ -17804,6 +17885,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test->compile]
@@ -17820,6 +17909,22 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->default]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->default(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test->compile]
@@ -17844,6 +17949,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test->compile]
@@ -17908,6 +18021,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test->compile]
@@ -17979,6 +18100,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test->compile]
@@ -18135,6 +18264,22 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test->compile]
@@ -18391,22 +18536,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->default]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->default(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test->compile]
@@ -18487,6 +18616,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile]
@@ -18495,14 +18632,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test->default]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test->runtime]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test->compile]
@@ -18579,6 +18708,18 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->default]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->default(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test->compile]
@@ -18909,6 +19050,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-auth;2.6.5 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apiguardian#apiguardian-api;1.0.0 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.directory.api#api-asn1-api;1.0.0-M20 [test-internal->compile]
@@ -19005,14 +19154,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-framework;2.6.0 [test-internal->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.5.1 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.httpcomponents#httpcore;4.2.4 [test-internal->compile]
@@ -19121,6 +19262,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.opentest4j#opentest4j;1.1.1 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->io.dropwizard.metrics#metrics-jvm;3.1.5 [test-internal->compile]
@@ -19137,6 +19286,22 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.7.9 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->default]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.jupiter#junit-jupiter-api;5.4.1 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [test-internal->compile]
@@ -19161,6 +19326,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mortbay.jetty#jetty-util;6.1.26 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-core;2.27.0 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.curator#curator-client;2.6.0 [test-internal->compile]
@@ -19225,6 +19398,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->log4j#log4j;1.2.17 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy-agent;1.9.10 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.antlr#antlr4-runtime;4.7 [test-internal->compile]
@@ -19296,6 +19477,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->jline#jline;0.9.94 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;3.8.1 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.arrow#arrow-vector;0.10.0 [test-internal->compile]
@@ -19452,6 +19641,22 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->net.bytebuddy#byte-buddy;1.9.10 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.junit.platform#junit-platform-commons;1.4.1 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->com.twitter#chill-java;0.9.3 [test-internal->compile]
@@ -19708,22 +19913,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-unsafe_2.11;2.4.0 [test-internal->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->default]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->default(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->junit#junit;4.12 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sketch_2.11;2.4.0 [test-internal->compile]
@@ -19804,6 +19993,14 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.spark-project.spark#unused;1.0.0 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->master(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->compile(*)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.objenesis#objenesis;2.6 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test-internal->compile]
@@ -19812,14 +20009,6 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [test-internal->master]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->master(compile)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->runtime]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->compile]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->compile(*)]
-[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test-internal->default]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test-internal->runtime]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.spark#spark-sql_2.11;2.4.0 [test-internal->compile]
@@ -19896,6 +20085,18 @@
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test-internal->compile(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.hadoop#hadoop-yarn-client;2.6.5 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->default]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->compile]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->master]
+[debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.mockito#mockito-junit-jupiter;2.27.0 [test-internal->master]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test-internal->compile]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#hashtag-correlation$sources;0.1->org.apache.commons#commons-math3;3.4.1 [test-internal->compile]
@@ -20137,13 +20338,14 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-graphite;3.1.5!metrics-graphite.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.11;2.6.7.1!jackson-module-scala_2.11.jar(src)
 [debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.2!commons-collections.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-core;2.6.5!hadoop-mapreduce-client-core.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.11;2.6.7.1!jackson-module-scala_2.11.jar(src)
 [debug] 	[NOT REQUIRED] net.razorvine#pyrolite;4.13!pyrolite.jar(src)
-[debug] 	[NOT REQUIRED] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.directory.server#apacheds-i18n;2.0.0-M15!apacheds-i18n.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
+[debug] 	[NOT REQUIRED] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-kvstore_2.11;2.4.0!spark-kvstore_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.directory.server#apacheds-i18n;2.0.0-M15!apacheds-i18n.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.5.3!json4s-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar(src)
@@ -20151,19 +20353,17 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.avro#avro;1.8.2!avro.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.jersey.containers#jersey-container-servlet;2.22.2!jersey-container-servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-core;2.6.5!hadoop-mapreduce-client-core.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.janino#commons-compiler;3.0.9!commons-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.5.3!json4s-jackson_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.directory.api#api-asn1-api;1.0.0-M20!api-asn1-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.6.5!hadoop-auth.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.directory.api#api-asn1-api;1.0.0-M20!api-asn1-api.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-jaxrs;1.9.13!jackson-jaxrs.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.py4j#py4j;0.10.7!py4j.jar(src)
-[debug] 	[NOT REQUIRED] org.codehaus.janino#janino;3.0.9!janino.jar(src)
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar(src)
 [debug] 	[NOT REQUIRED] org.tukaani#xz;1.5!xz.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.avro#avro-ipc;1.8.2!avro-ipc.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.11;2.4.0!spark-catalyst_2.11.jar(src)
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.11;2.4.0!spark-catalyst_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.6.5!hadoop-hdfs.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.1.0!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-framework;2.6.0!curator-framework.jar(src)
@@ -20175,14 +20375,14 @@
 [debug] 	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.5!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware#kryo-shaded;4.0.2!kryo-shaded.jar(src)
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.javassist#javassist;3.18.1-GA!javassist.jar(src)
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.8.1!commons-compress.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.arrow#arrow-format;0.10.0!arrow-format.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.6.5!hadoop-mapreduce-client-common.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.7.9!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-jvm;3.1.5!metrics-jvm.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.7.9!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar(src)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.3.04!xml-apis.jar(src)
 [debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar(src)
@@ -20191,18 +20391,19 @@
 [debug] 	[NOT REQUIRED] org.glassfish.hk2#hk2-api;2.4.0-b34!hk2-api.jar(src)
 [debug] 	[NOT REQUIRED] javax.ws.rs#javax.ws.rs-api;2.0.1!javax.ws.rs-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.6.5!hadoop-mapreduce-client-app.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.5!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-launcher_2.11;2.4.0!spark-launcher_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.5!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
 [debug] 	[NOT REQUIRED] org.antlr#antlr4-runtime;4.7!antlr4-runtime.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.ivy#ivy;2.4.0!ivy.jar(src)
 [debug] 	[NOT REQUIRED] org.lz4#lz4-java;1.4.0!lz4-java.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.arrow#arrow-memory;0.10.0!arrow-memory.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.ivy#ivy;2.4.0!ivy.jar(src)
 [debug] 	[NOT REQUIRED] com.github.luben#zstd-jni;1.3.2-2!zstd-jni.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.arrow#arrow-memory;0.10.0!arrow-memory.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.6.5!hadoop-yarn-server-nodemanager.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.16!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;3.8.1!junit.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.16!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.arrow#arrow-vector;0.10.0!arrow-vector.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.11;2.4.0!spark-streaming_2.11.jar(src)
@@ -20210,7 +20411,6 @@
 [debug] 	[NOT REQUIRED] org.apache.xbean#xbean-asm6-shaded;4.8!xbean-asm6-shaded.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.6.5!hadoop-client.jar(src)
 [debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.6.5!hadoop-yarn-server-nodemanager.jar(src)
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.6.5!hadoop-mapreduce-client-jobclient.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.16!jul-to-slf4j.jar(src)
@@ -20222,28 +20422,29 @@
 [debug] 	[NOT REQUIRED] org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2!jersey-guava.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.hk2.external#javax.inject;2.4.0-b34!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34!aopalliance-repackaged.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.7.1!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#chill-java;0.9.3!chill-java.jar(src)
-[debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.5!metrics-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.6!zookeeper.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.7.1!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.5!metrics-core.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-all;4.1.17.Final!netty-all.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.6.0!curator-recipes.jar(src)
 [debug] 	[NOT REQUIRED] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar(src)
 [debug] 	[NOT REQUIRED] com.vlkan#flatbuffers;1.2.0-3f79e055!flatbuffers.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-common;2.6.5!hadoop-common.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-crypto;1.0.0!commons-crypto.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-common;2.6.5!hadoop-common.jar(src)
 [debug] 	[NOT REQUIRED] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;3.0!guice.jar(src)
 [debug] 	[NOT REQUIRED] javax.xml.stream#stax-api;1.0-2!stax-api.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.jersey.containers#jersey-container-servlet-core;2.22.2!jersey-container-servlet-core.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.hk2#hk2-utils;2.4.0-b34!hk2-utils.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;2.4.0!spark-network-shuffle_2.11.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty;3.9.9.Final!netty.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;2.4.0!spark-network-shuffle_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.7.1!snappy-java.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-format;2.4.0!parquet-format.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15!apacheds-kerberos-codec.jar(src)
+[debug] 	[NOT REQUIRED] org.codehaus.janino#janino;3.0.9!janino.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-format;2.4.0!parquet-format.jar(src)
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.6!twitter4j-core.jar(src)
 [debug] 	[NOT REQUIRED] com.univocity#univocity-parsers;2.7.3!univocity-parsers.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.parquet#parquet-jackson;1.10.0!parquet-jackson.jar(src)
@@ -20251,19 +20452,18 @@
 [debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.orc#orc-core;1.5.2!orc-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.parquet#parquet-common;1.10.0!parquet-common.jar(src)
-[debug] 	[NOT REQUIRED] org.codehaus.jettison#jettison;1.1!jettison.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-core_2.11;2.4.0!spark-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-unsafe_2.11;2.4.0!spark-unsafe_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.codehaus.jettison#jettison;1.1!jettison.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-sketch_2.11;2.4.0!spark-sketch_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.2.4!gson.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.7.9!jackson-module-paranamer.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-common;2.6.5!hadoop-yarn-common.jar(src)
-[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-xc;1.9.13!jackson-xc.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.6.5!hadoop-yarn-api.jar(src)
-[debug] 	[NOT REQUIRED] org.glassfish.jersey.core#jersey-client;2.22.2!jersey-client.jar(src)
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar(src)
+[debug] 	[NOT REQUIRED] org.glassfish.jersey.core#jersey-client;2.22.2!jersey-client.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.6.5!hadoop-yarn-api.jar(src)
+[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.5.3!json4s-scalap_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;2.4.0!spark-sql_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.6.5!hadoop-annotations.jar(src)
@@ -20271,19 +20471,19 @@
 [debug] 	[NOT REQUIRED] org.apache.avro#avro-mapred;1.8.2!avro-mapred.jar(src)
 [debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar(src)
 [debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] io.airlift#aircompressor;0.10!aircompressor.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.hk2#osgi-resource-locator;1.0.1!osgi-resource-locator.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.4.1!commons-math3.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-client;2.6.5!hadoop-yarn-client.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.directory.api#api-util;1.0.0-M20!api-util.jar(src)
-[debug] 	[NOT REQUIRED] io.airlift#aircompressor;0.10!aircompressor.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.10.0!parquet-hadoop.jar(src)
 [debug] 	[NOT REQUIRED] org.glassfish.hk2#hk2-locator;2.4.0-b34!hk2-locator.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.6.5!hadoop-mapreduce-client-shuffle.jar(src)
-[debug] 	[NOT REQUIRED] commons-net#commons-net;3.1!commons-net.jar(src)
 [debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(src)
+[debug] 	[NOT REQUIRED] commons-net#commons-net;3.1!commons-net.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.parquet#parquet-column;1.10.0!parquet-column.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.10.0!parquet-hadoop.jar(src)
 [debug] 	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-common_2.11;2.4.0!spark-network-common_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.6.5!hadoop-mapreduce-client-shuffle.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;11.0.2!guava.jar(src)
 [debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-json;3.1.5!metrics-json.jar(src)
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-stream;4.0.6!twitter4j-stream.jar(src)
@@ -20292,28 +20492,24 @@
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] org.htrace#htrace-core;3.0.4!htrace-core.jar(src)
 [debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2.2!jaxb-api.jar(src)
-[debug] 	[NOT REQUIRED] org.glassfish.jersey.core#jersey-common;2.22.2!jersey-common.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.glassfish.jersey.core#jersey-common;2.22.2!jersey-common.jar(src)
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.6!objenesis.jar(src)
+[debug] 	[NOT REQUIRED] org.apiguardian#apiguardian-api;1.0.0!apiguardian-api.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.16!slf4j-log4j12.jar(src)
+[debug] 	[NOT REQUIRED] org.opentest4j#opentest4j;1.1.1!opentest4j.jar(src)
+[debug] 	[NOT REQUIRED] org.junit.jupiter#junit-jupiter-api;5.4.1!junit-jupiter-api.jar(src)
+[debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.27.0!mockito-core.jar(src)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.9.10!byte-buddy-agent.jar(src)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.9.10!byte-buddy.jar(src)
+[debug] 	[NOT REQUIRED] org.junit.platform#junit-platform-commons;1.4.1!junit-platform-commons.jar(src)
+[debug] 	[NOT REQUIRED] org.mockito#mockito-junit-jupiter;2.27.0!mockito-junit-jupiter.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
-[debug] 		tried /home/finaxys/.ivy2/local/org.hamcrest/hamcrest-core/1.3/srcs/hamcrest-core-sources.jar
-[debug] 		tried /home/finaxys/.ivy2/local/junit/junit/4.12/srcs/junit-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
-[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src) (139ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar(src) (1156ms)
-[debug] :: resolution report :: resolve 4741ms :: artifacts dl 1207ms
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.7.9!jackson-module-paranamer.jar(src)
+[debug] :: resolution report :: resolve 4187ms :: artifacts dl 46ms
 [debug] 	report for default#hashtag-correlation$sources;0.1 compile produced in /home/finaxys/Bureau/CodinGame/Hashtag-Correlation/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-compile.xml
 [debug] 	report for default#hashtag-correlation$sources;0.1 runtime produced in /home/finaxys/Bureau/CodinGame/Hashtag-Correlation/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-runtime.xml
 [debug] 	report for default#hashtag-correlation$sources;0.1 test produced in /home/finaxys/Bureau/CodinGame/Hashtag-Correlation/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-test.xml
@@ -20325,4 +20521,4 @@
 [debug] 	report for default#hashtag-correlation$sources;0.1 plugin produced in /home/finaxys/Bureau/CodinGame/Hashtag-Correlation/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-plugin.xml
 [debug] 	report for default#hashtag-correlation$sources;0.1 pom produced in /home/finaxys/Bureau/CodinGame/Hashtag-Correlation/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-pom.xml
 [debug] 	report for default#hashtag-correlation$sources;0.1 scala-tool produced in /home/finaxys/Bureau/CodinGame/Hashtag-Correlation/target/scala-2.11/resolution-cache/reports/default-hashtag-correlation$sources-scala-tool.xml
-[debug] 	resolve done (4741ms resolve - 1207ms download)
+[debug] 	resolve done (4187ms resolve - 46ms download)

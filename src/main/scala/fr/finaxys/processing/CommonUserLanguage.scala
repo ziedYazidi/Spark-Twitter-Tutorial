@@ -8,10 +8,10 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 // find the most common user language in the tweets
 object CommonUserLanguage {
 
-  def getCommonLanguage(): StreamingContext ={
+  val ssc = SparkEntryPoint.createContext()
+  val tweets = TweetStream.getTweetStream(ssc)
 
-    val ssc = SparkEntryPoint.createContext()
-    val tweets = TweetStream.getTweetStream(ssc)
+  def getCommonLanguage(): StreamingContext ={
 
     val firstLang = new LongCounterFactory("First Lang").getInstance(ssc.sparkContext)
     val secondLang = new LongCounterFactory("Second Lang").getInstance(ssc.sparkContext)

@@ -17,16 +17,19 @@ object SparkStructuredStreaming {
   case class Tweet(created_at: String, id: Option[Long], id_str	: String, text: String, source: String, truncated: Boolean, in_reply_to_status_id: Option[Long], in_reply_to_status_id_str: String,
                         in_reply_to_user_id: Option[Long], in_reply_to_user_id_str: String, in_reply_to_screen_name: String, user: User, coordinates: Coodinates, place: Place)
 
+  val spark = SparkSession.builder().appName("Spark Structured Streaming").config("spark.master", "local").getOrCreate()
+  val path = "/home/finaxys/Bureau/CodinGame/Hashtag-Correlation/src/main/resources/tweets.json"
+  val tweets = spark.read.json(path)
+
+  import spark.implicits._
+
+  def getUsersByCountry(country: String)={
+    val ds: Dataset[Tweet] = tweets.as[Tweet]
+    ds.filter(_.user.location == country).select("coordinates")
+  }
 
   def main(args: Array[String]): Unit = {
-    val spark = SparkSession.builder().appName("Spark batch").config("spark.master", "local").getOrCreate()
-    import spark.implicits._
-    val path = "/home/finaxys/Bureau/CodinGame/Hashtag-Correlation/src/main/resources/tweets.json"
-    val tweets = spark.read.json(path)
-    val ds: Dataset[Tweet] = tweets.as[Tweet]
-    ds.filter(_.user.location == "Barcelona").select("coordinates").show()
-//    val words = ds.map(_.text).flatMap(_.split(" "))
-
+    getUsersByCountry("Barcelona").show()
   }
 
 

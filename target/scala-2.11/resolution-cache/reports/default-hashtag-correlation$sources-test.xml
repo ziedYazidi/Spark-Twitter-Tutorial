@@ -7,8 +7,124 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190411163511"/>
+		date="20190412153230"/>
 	<dependencies>
+		<module organisation="org.mockito" name="mockito-junit-jupiter">
+			<revision name="2.27.0" status="release" pubdate="20190410204124" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="166">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2834" time="0" location="/home/finaxys/.ivy2/cache/org.mockito/mockito-junit-jupiter/ivy-2.27.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/2.27.0/mockito-junit-jupiter-2.27.0.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.27.0" rev-constraint-default="2.27.0" rev-constraint-dynamic="2.27.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mockito-junit-jupiter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4702" time="0" location="/home/finaxys/.ivy2/cache/org.mockito/mockito-junit-jupiter/srcs/mockito-junit-jupiter-2.27.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/2.27.0/mockito-junit-jupiter-2.27.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="2.27.0" status="release" pubdate="20190410204129" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="161">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2993" time="0" location="/home/finaxys/.ivy2/cache/org.mockito/mockito-core/ivy-2.27.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.27.0" rev-constraint-default="2.27.0" rev-constraint-dynamic="2.27.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mockito-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="485212" time="0" location="/home/finaxys/.ivy2/cache/org.mockito/mockito-core/srcs/mockito-core-2.27.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.6" status="release" pubdate="20170620172837" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="165">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3457" time="0" location="/home/finaxys/.ivy2/cache/org.objenesis/objenesis/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57063" time="0" location="/home/finaxys/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.5.1" status="release" pubdate="20170118030109" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3459" time="0" location="/home/finaxys/.ivy2/cache/org.objenesis/objenesis/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.pom"/>
+				<evicted-by rev="2.6"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy-agent">
+			<revision name="1.9.10" status="release" pubdate="20190211191529" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="162">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8559" time="0" location="/home/finaxys/.ivy2/cache/net.bytebuddy/byte-buddy-agent/ivy-1.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.9.10" rev-constraint-default="1.9.10" rev-constraint-dynamic="1.9.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="byte-buddy-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21129" time="0" location="/home/finaxys/.ivy2/cache/net.bytebuddy/byte-buddy-agent/srcs/byte-buddy-agent-1.9.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.9.10" status="release" pubdate="20190211191341" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="163">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9415" time="0" location="/home/finaxys/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.9.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.9.10" rev-constraint-default="1.9.10" rev-constraint-dynamic="1.9.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1147406" time="0" location="/home/finaxys/.ivy2/cache/net.bytebuddy/byte-buddy/srcs/byte-buddy-1.9.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-api">
+			<revision name="5.4.1" status="release" pubdate="20190317201020" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="160">
+				<license name="Eclipse Public License v2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3010" time="0" location="/home/finaxys/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.1/junit-jupiter-api-5.4.1.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit-jupiter-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147220" time="0" location="/home/finaxys/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/srcs/junit-jupiter-api-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.1/junit-jupiter-api-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-commons">
+			<revision name="1.4.1" status="release" pubdate="20190317201101" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="164">
+				<license name="Eclipse Public License v2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="2724" time="0" location="/home/finaxys/.ivy2/cache/org.junit.platform/junit-platform-commons/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.4.1/junit-platform-commons-1.4.1.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit-platform-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="65124" time="0" location="/home/finaxys/.ivy2/cache/org.junit.platform/junit-platform-commons/srcs/junit-platform-commons-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.4.1/junit-platform-commons-1.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.opentest4j" name="opentest4j">
+			<revision name="1.1.1" status="release" pubdate="20180910211447" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ota4j-team/opentest4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="159">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2515" time="0" location="/home/finaxys/.ivy2/cache/org.opentest4j/opentest4j/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opentest4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7816" time="0" location="/home/finaxys/.ivy2/cache/org.opentest4j/opentest4j/srcs/opentest4j-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apiguardian" name="apiguardian-api">
+			<revision name="1.0.0" status="release" pubdate="20170910115211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/apiguardian-team/apiguardian" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="158">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2516" time="0" location="/home/finaxys/.ivy2/cache/org.apiguardian/apiguardian-api/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="apiguardian-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2229" time="0" location="/home/finaxys/.ivy2/cache/org.apiguardian/apiguardian-api/srcs/apiguardian-api-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.spark" name="spark-sql_2.11">
 			<revision name="2.4.0" status="release" pubdate="20181029085635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="128">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
@@ -178,7 +294,7 @@
 			</revision>
 		</module>
 		<module organisation="joda-time" name="joda-time">
-			<revision name="2.9.9" status="release" pubdate="20170323143313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+			<revision name="2.9.9" status="release" pubdate="20170323143313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6647" time="0" location="/home/finaxys/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="0.1"/>
@@ -190,7 +306,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.arrow" name="arrow-memory">
-			<revision name="0.10.0" status="release" pubdate="20180803020354" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+			<revision name="0.10.0" status="release" pubdate="20180803020354" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="8779" time="0" location="/home/finaxys/.ivy2/cache/org.apache.arrow/arrow-memory/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1"/>
@@ -214,7 +330,7 @@
 			</revision>
 		</module>
 		<module organisation="xml-apis" name="xml-apis">
-			<revision name="1.3.04" status="release" pubdate="20061222143752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+			<revision name="1.3.04" status="release" pubdate="20061222143752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3060" time="0" location="/home/finaxys/.ivy2/cache/xml-apis/xml-apis/ivy-1.3.04.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.3.04" rev-constraint-default="1.3.04" rev-constraint-dynamic="1.3.04" callerrev="0.1"/>
@@ -226,7 +342,7 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.7.9" status="release" pubdate="20170204201844" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+			<revision name="2.7.9" status="release" pubdate="20170204201844" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="7216" time="0" location="/home/finaxys/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.9/jackson-core-2.7.9.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.7.9" rev-constraint-default="2.7.9" rev-constraint-dynamic="2.7.9" callerrev="0.1"/>
@@ -238,7 +354,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.arrow" name="arrow-format">
-			<revision name="0.10.0" status="release" pubdate="20180803020334" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+			<revision name="0.10.0" status="release" pubdate="20180803020334" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="8900" time="0" location="/home/finaxys/.ivy2/cache/org.apache.arrow/arrow-format/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1"/>
@@ -262,7 +378,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.code.findbugs" name="jsr305">
-			<revision name="3.0.2" status="release" pubdate="20170331065548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+			<revision name="3.0.2" status="release" pubdate="20170331065548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3268" time="0" location="/home/finaxys/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="0.1"/>
@@ -274,7 +390,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.orc" name="orc-shims">
-			<revision name="1.5.2" status="release" pubdate="20180629200859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+			<revision name="1.5.2" status="release" pubdate="20180629200859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="20268" time="0" location="/home/finaxys/.ivy2/cache/org.apache.orc/orc-shims/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.2/orc-shims-1.5.2.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="0.1"/>
@@ -286,7 +402,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.bahir" name="spark-streaming-twitter_2.11">
-			<revision name="2.3.2" status="release" pubdate="20181130210708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bahir.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+			<revision name="2.3.2" status="release" pubdate="20181130210708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bahir.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="15535" time="0" location="/home/finaxys/.ivy2/cache/org.apache.bahir/spark-streaming-twitter_2.11/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/bahir/spark-streaming-twitter_2.11/2.3.2/spark-streaming-twitter_2.11-2.3.2.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1"/>
@@ -346,7 +462,7 @@
 			</revision>
 		</module>
 		<module organisation="org.antlr" name="antlr4-runtime">
-			<revision name="4.7" status="release" pubdate="20170330232734" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+			<revision name="4.7" status="release" pubdate="20170330232734" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
 				<license name="The BSD License" url="http://www.antlr.org/license.html"/>
 				<metadata-artifact status="no" details="" size="3593" time="0" location="/home/finaxys/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="4.7" rev-constraint-default="4.7" rev-constraint-dynamic="4.7" callerrev="0.1"/>
@@ -382,7 +498,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.ivy" name="ivy">
-			<revision name="2.4.0" status="release" pubdate="20141222174010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+			<revision name="2.4.0" status="release" pubdate="20141222174010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="5566" time="0" location="/home/finaxys/.ivy2/cache/org.apache.ivy/ivy/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
@@ -406,7 +522,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-jvm">
-			<revision name="3.1.5" status="release" pubdate="20170602200001" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+			<revision name="3.1.5" status="release" pubdate="20170602200001" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="5156" time="0" location="/home/finaxys/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/ivy-3.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="3.1.5" rev-constraint-default="3.1.5" rev-constraint-dynamic="3.1.5" callerrev="0.1"/>
@@ -454,7 +570,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.luben" name="zstd-jni">
-			<revision name="1.3.2-2" status="release" pubdate="20171019063038" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/luben/zstd-jni" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+			<revision name="1.3.2-2" status="release" pubdate="20171019063038" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/luben/zstd-jni" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
 				<license name="BSD 2-Clause License" url="https://opensource.org/licenses/BSD-2-Clause"/>
 				<metadata-artifact status="no" details="" size="2877" time="0" location="/home/finaxys/.ivy2/cache/com.github.luben/zstd-jni/ivy-1.3.2-2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.3.2-2/zstd-jni-1.3.2-2.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.3.2-2" rev-constraint-default="1.3.2-2" rev-constraint-dynamic="1.3.2-2" callerrev="0.1"/>
@@ -466,7 +582,7 @@
 			</revision>
 		</module>
 		<module organisation="org.lz4" name="lz4-java">
-			<revision name="1.4.0" status="release" pubdate="20170803065231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lz4/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+			<revision name="1.4.0" status="release" pubdate="20170803065231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lz4/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2736" time="0" location="/home/finaxys/.ivy2/cache/org.lz4/lz4-java/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1"/>
@@ -502,7 +618,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
-			<revision name="1.7.16" status="release" pubdate="20160211212707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+			<revision name="1.7.16" status="release" pubdate="20160211212707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="5275" time="0" location="/home/finaxys/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="0.1"/>
@@ -598,7 +714,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
-			<revision name="3.5" status="release" pubdate="20161013215341" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+			<revision name="3.5" status="release" pubdate="20161013215341" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="12365" time="0" location="/home/finaxys/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="0.1"/>
@@ -622,7 +738,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
-			<revision name="2.4.0" status="release" pubdate="20181029085855" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+			<revision name="2.4.0" status="release" pubdate="20181029085855" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="81416" time="0" location="/home/finaxys/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.0/spark-launcher_2.11-2.4.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
@@ -670,7 +786,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
-			<revision name="2.6.5" status="release" pubdate="20161003012452" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+			<revision name="2.6.5" status="release" pubdate="20161003012452" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="36151" time="0" location="/home/finaxys/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
@@ -694,7 +810,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
-			<revision name="2.6.5" status="release" pubdate="20161003012054" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+			<revision name="2.6.5" status="release" pubdate="20161003012054" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="38352" time="0" location="/home/finaxys/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.5/hadoop-yarn-server-nodemanager-2.6.5.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
@@ -717,7 +833,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
-			<revision name="2.6.5" status="release" pubdate="20161003012418" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+			<revision name="2.6.5" status="release" pubdate="20161003012418" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="34888" time="0" location="/home/finaxys/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
@@ -790,25 +906,13 @@
 			</revision>
 		</module>
 		<module organisation="com.esotericsoftware" name="kryo-shaded">
-			<revision name="4.0.2" status="release" pubdate="20180320220343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+			<revision name="4.0.2" status="release" pubdate="20180320220343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="4543" time="0" location="/home/finaxys/.ivy2/cache/com.esotericsoftware/kryo-shaded/ivy-4.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="4.0.2" rev-constraint-default="4.0.2" rev-constraint-dynamic="4.0.2" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="kryo-shaded" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="207614" time="0" location="/home/finaxys/.ivy2/cache/com.esotericsoftware/kryo-shaded/srcs/kryo-shaded-4.0.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.objenesis" name="objenesis">
-			<revision name="2.5.1" status="release" pubdate="20170118030109" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3459" time="0" location="/home/finaxys/.ivy2/cache/org.objenesis/objenesis/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.pom"/>
-				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56096" time="0" location="/home/finaxys/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.5.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -982,7 +1086,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-compress">
-			<revision name="1.8.1" status="release" pubdate="20140509211752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+			<revision name="1.8.1" status="release" pubdate="20140509211752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="10390" time="0" location="/home/finaxys/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.1"/>
@@ -1018,7 +1122,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.6" status="release" pubdate="20160920112614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+			<revision name="1.0.6" status="release" pubdate="20160920112614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/finaxys/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.1"/>
@@ -1090,7 +1194,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource.leveldbjni" name="leveldbjni-all">
-			<revision name="1.8" status="release" pubdate="20131017151826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+			<revision name="1.8" status="release" pubdate="20131017151826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
 				<license name="The BSD 3-Clause License" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="4642" time="0" location="/home/finaxys/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="0.1"/>
@@ -1102,7 +1206,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
-			<revision name="2.4.0" status="release" pubdate="20181029085954" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+			<revision name="2.4.0" status="release" pubdate="20181029085954" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="78162" time="0" location="/home/finaxys/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.0/spark-tags_2.11-2.4.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
@@ -1162,7 +1266,7 @@
 			</revision>
 		</module>
 		<module organisation="org.javassist" name="javassist">
-			<revision name="3.18.1-GA" status="release" pubdate="20130830185932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+			<revision name="3.18.1-GA" status="release" pubdate="20130830185932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
 				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
 				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
@@ -1188,7 +1292,7 @@
 			</revision>
 		</module>
 		<module organisation="org.glassfish.hk2" name="hk2-api">
-			<revision name="2.4.0-b34" status="release" pubdate="20151119125605" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+			<revision name="2.4.0-b34" status="release" pubdate="20151119125605" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
 				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="25305" time="0" location="/home/finaxys/.ivy2/cache/org.glassfish.hk2/hk2-api/ivy-2.4.0-b34.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.4.0-b34" rev-constraint-default="2.4.0-b34" rev-constraint-dynamic="2.4.0-b34" callerrev="0.1"/>
@@ -1260,7 +1364,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.ws.rs" name="javax.ws.rs-api">
-			<revision name="2.0.1" status="release" pubdate="20140807140813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jax-rs-spec.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+			<revision name="2.0.1" status="release" pubdate="20140807140813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jax-rs-spec.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
 				<license name="CDDL 1.1" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<license name="GPL2 w/ CPE" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="4023" time="0" location="/home/finaxys/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom"/>
@@ -1316,38 +1420,6 @@
 				<artifacts>
 					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="/home/finaxys/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="junit" name="junit">
-			<revision name="4.12" status="release" pubdate="20141204171743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="158">
-				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
-				<metadata-artifact status="no" details="" size="3317" time="0" location="/home/finaxys/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
-				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="200355" time="1156" location="/home/finaxys/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-			<revision name="3.8.1" status="release" pubdate="20070514233418" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
-				<metadata-artifact status="no" details="" size="2583" time="0" location="/home/finaxys/.ivy2/cache/junit/junit/ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom"/>
-				<evicted-by rev="4.12"/>
-				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.1"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.hamcrest" name="hamcrest-core">
-			<revision name="1.3" status="release" pubdate="20120709230802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="159">
-				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="no" details="" size="2617" time="0" location="/home/finaxys/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
-				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32624" time="139" location="/home/finaxys/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1597,7 +1669,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.curator" name="curator-client">
-			<revision name="2.6.0" status="release" pubdate="20140708050047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+			<revision name="2.6.0" status="release" pubdate="20140708050047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<license name="The Apache Software License, Version 2.0" url="file:///home/finaxys/Bureau/CodinGame/Hashtag-Correlation/LICENSE"/>
 				<metadata-artifact status="no" details="" size="13474" time="0" location="/home/finaxys/.ivy2/cache/org.apache.curator/curator-client/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="0.1"/>
@@ -1620,7 +1692,7 @@
 			</revision>
 		</module>
 		<module organisation="jline" name="jline">
-			<revision name="0.9.94" status="release" pubdate="20080222205343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+			<revision name="0.9.94" status="release" pubdate="20080222205343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
 				<license name="BSD" url="LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="2968" time="0" location="/home/finaxys/.ivy2/cache/jline/jline/ivy-0.9.94.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="0.9.94" rev-constraint-default="0.9.94" rev-constraint-dynamic="0.9.94" callerrev="0.1"/>
@@ -1680,7 +1752,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
-			<revision name="4.2.5" status="release" pubdate="20130419182959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+			<revision name="4.2.5" status="release" pubdate="20130419182959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
 				<license name="Apache License" url="LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="8539" time="0" location="/home/finaxys/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="4.2.5" rev-constraint-default="4.2.5" rev-constraint-dynamic="4.2.5" callerrev="0.1"/>
@@ -1692,7 +1764,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
-			<revision name="4.2.4" status="release" pubdate="20130320171221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+			<revision name="4.2.4" status="release" pubdate="20130320171221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="Apache License" url="LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="6556" time="0" location="/home/finaxys/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="4.2.4" rev-constraint-default="4.2.4" rev-constraint-dynamic="4.2.4" callerrev="0.1"/>
@@ -1716,7 +1788,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.protobuf" name="protobuf-java">
-			<revision name="2.5.0" status="release" pubdate="20130308011811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+			<revision name="2.5.0" status="release" pubdate="20130308011811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
 				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="3139" time="0" location="/home/finaxys/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.1"/>
@@ -1728,7 +1800,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
-			<revision name="1.9.13" status="release" pubdate="20130715050750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+			<revision name="1.9.13" status="release" pubdate="20130715050750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2787" time="0" location="/home/finaxys/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1"/>
@@ -1799,7 +1871,7 @@
 			</revision>
 		</module>
 		<module organisation="log4j" name="log4j">
-			<revision name="1.2.17" status="release" pubdate="20120526114339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+			<revision name="1.2.17" status="release" pubdate="20120526114339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3670" time="0" location="/home/finaxys/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
 				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.1"/>
@@ -1822,7 +1894,7 @@
 			</revision>
 		</module>
 		<module organisation="org.mortbay.jetty" name="jetty-util">
-			<revision name="6.1.26" status="release" pubdate="20101110223810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+			<revision name="6.1.26" status="release" pubdate="20101110223810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
 				<metadata-artifact status="no" details="" size="6784" time="0" location="/home/finaxys/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
@@ -1938,6 +2010,18 @@
 				<artifacts>
 					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="646075" time="0" location="/home/finaxys/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="3.8.1" status="release" pubdate="20070514233418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2583" time="0" location="/home/finaxys/.ivy2/cache/junit/junit/ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom"/>
+				<caller organisation="default" name="hashtag-correlation$sources" conf="test, compile, runtime" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57635" time="0" location="/home/finaxys/.ivy2/cache/junit/junit/srcs/junit-3.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
